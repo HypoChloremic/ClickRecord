@@ -20,7 +20,7 @@ class Record:
 		# in addition to relating these to to positions on the screen. 
 		# Developing this further to also be able to record the times of the press-events
 		# will also be incorporated future versions of the script.
-		# (cc) 2017 Ali Rassolie
+		# (cc) Stockholm 2017 Ali Rassolie
 
 		# This seems to be an extremely dangerous endeavour, I
 		# seems that it does not like certain windows
@@ -30,7 +30,7 @@ class Record:
 	
 	# Storing variables and values
 		self.click_location = list()
-		self.record(mouse=mouse, keyboard=keyboard)
+
 		
 
 	def record(self, time=False, mouse=False, keyboard=False):
